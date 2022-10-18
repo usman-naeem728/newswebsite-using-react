@@ -1,0 +1,15 @@
+.nav1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.card{
+  width: 28rem;
+}
+.mainPost{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
