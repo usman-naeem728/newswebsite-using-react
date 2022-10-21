@@ -1,15 +1,63 @@
+body{
+  background-color: white;
+}
 .nav1{
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color:  green;
   color: white;
 }
 .card{
-  width: 28rem;
+  border: 1px solid black;
 }
-.mainPost{
+.light2{
+  border: 1px solid black;
+  background-color: white;
+}
+.dark2{
+  border: 1px solid white;
+  background-color: black;
+}
+
+
+.dark{
+  background-color: black;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: black;
+}
+.dark1{
+  background-color: white;
+  color: black;
+}
+.light1{
+  background-color: black;
+  color: white;
+}
+
+.fa{
+  font-size: 30px;
+}
+.container{
   display: flex;
-  flex-direction: row;
-  width: 50%;
+  align-items: center;
+  width: 100%;
+}
+.container .tooglebtn{
+  height: 50%;
+  width: 5%;
+  border-radius: 15px;
+  background-color: white;
+}
+.container .input-group{
+  width: 80%;
+  display: flex;
+  margin-left: 40px;
+}
+
+.card2{
+  width: 18rem;
 }
